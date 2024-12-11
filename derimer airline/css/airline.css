@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Acme", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: black;
+}
+
+header {
+
+  background: url(../images/avion.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  flex-direction: column;
+}
+
+.titre {
+  color: rgb(42, 38, 8);
+
+}
+
+.slogan {
+  color: rgb(21, 19, 3);
+}
+
+.formu {
+  background-color: gray;
+}
+
+
+
+
+
+
+
+section#destination {}
+
+section#destination h3 {
+
+  color: #ef8f1d;
+  padding-top: 30px;
+  text-shadow: 2px 2px gray;
+  font-size: 25px;
+}
+
+.destination-item {
+  color: rgb(209, 201, 201);
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  position: relative;
+
+}
+
+.destination-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.paris {
+  background: url(/images/paris.jpg);
+
+
+}
+
+.barcelone {
+  background-image: url(/images/barcelone.jpg);
+}
+
+.dubai {
+  background-image: url(/images/dubai.jpg);
+}
+
+.reunion {
+  background-image: url(/images/la\ reunion.jpg);
+}
+
+.londres {
+  background-image: url(/images/londres.jpg);
+}
+
+.tunis {
+  background-image: url(/images/tunis.jpg);
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+span.nom {
+  position: relative;
+  top: 20px;
+  float: right;
+  color: #8f8a8a;
+  background-color: white;
+  padding: 12px;
+  font-size: 22px;
+}
+
+span.prix {
+  position: relative;
+  color: white;
+  background: #ef8f1d;
+  padding: 12px;
+  font-size: 18px;
+  top: 200px;
+}
+
+div.destination-item:hover {
+  transform: scale(1, 1.15);
+  transition: 0.3s all;
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.5),
+    0 12px 20px 0 rgba(255, 255, 255, 0.7);
+}
+
+/*formulaire*/
+.form-group,
+.button-submit {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 6px;
+}
+
+.button-submit {
+  align-items: center;
+}
+
+header form {
+
+  background-color: #ef8f1d;
+  padding: 8px;
+}
+
+.form-group label {
+  color: #ffffff;
+  margin: 6px;
+  padding: 10px;
+}
+
+.form-group input,
+select,
+option {
+  border: none;
+  padding: 5px;
+  background-color: bisque;
+  margin: 6px;
+}
+
+.button-submit input {
+  background-color: rgb(14, 12, 12);
+  border: none;
+  font-size: 25px;
+  color: white;
+  margin-top: 15px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+@media screen and (max-width:1150px) {
+  body {
+    display: block;
+    flex-flow: column wrap;
+    width: auto;
+  }
+
+  header {
+    width: auto;
+    text-align: center;
+  }
+
+  .form-group {
+    display: block;
+  }
+
+}

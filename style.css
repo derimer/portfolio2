@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slider {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./image/slider.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit:contain;
+  color:white;
+  flex-direction: column; 
+height: 300px;
+  
+}
+.title{display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+  flex-direction: column;
+
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+.competences{
+ text-align: center;
+  display: flex;
+  color:white;
+  background-color: #333;
+  padding:80px;
+  gap:50px;
+}
+.html{
+  flex-direction: column;
+  text-align: center;
+}
+
+.css{
+  flex-direction: column;
+  text-align: center;
+}
+
+.js{
+  flex-direction: column;
+  text-align: center;
+}
+
+.react{
+  flex-direction: column;
+  text-align: center;
+}
+
+.rea{
+  text-align: center;
+  padding: 20px;
+  
+}
+.realisations{
+  color: white;
+  background-color: #333;
+  display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr ;;
+gap:5px;
+}
+footer{
+  color:white;
+  background-image: url("./image/slider.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ text-align: center;
+  object-fit: cover;
+  background-size: cover;
+  height: 200px;
+  background-repeat: no-repeat;
+  gap:50px;
+}
+.value img{
+  
+ 
+  border-radius: 50%;
+  background-color: transparent;
+}
+.dark{
+  margin-top: 30px;
+  gap:2px;
+  
+}
+@media(max-width:1260px){
+ .realisations{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ } 
+ .competences{
+  flex-direction: column;
+ }
+}
+@media(max-width:516px){
+ 
+ .section{
+ padding:0;
+ margin-top:40px;
+ margin-bottom: 40px;
+ } 
+ .competences{
+padding:20px;
+ }
+}

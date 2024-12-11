@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet" />
+  <script src="cours.js"></script>
+  <title>jrd air compagnie</title>
+</head>
+
+<body>
+  <header>
+
+    <h1 class="titre">DERIMER AIR LINE</h1>
+    <img class="img" src="/images/icon avion.jpg" alt="" />
+    <h3 class="slogan"> LA TETE DANS LES NUAGES !</h3>
+
+  </header>
+  <div class="formu">
+    <form method="post">
+      <div class="form-group">
+        <label for="provenance">Ville de départ</label>
+        <input type="text" name="provenance" id="provenance" placeholder="Paris , Milan, ... " />
+        <label for="arrivee">Ville d'arrivée</label>
+        <input type="text" name="arrivee" id="arrivee" placeholder="Paris , Milan, ... " />
+      </div>
+      <div class="form-group">
+        <label for="depart">Date de départ</label>
+        <input type="date" name="depart" id="depart" value="15/04/2024" />
+        <label for="retour">Date de retour</label>
+        <input type="date" name="retour" id="retour" value="15/05/2024" />
+      </div>
+      <div class="form-group">
+        <label for="adultes">Nombre d'adultes</label>
+        <select>
+          <option selected="selected">0 Adulte</option>
+          <option>1 Adulte</option>
+          <option>2 adultes</option>
+          <option>3 Adultes</option>
+          <option>4 Adultes</option>
+          <option>5 Adultes</option>
+        </select>
+        <label for="enfants">Nombre d'enfants</label>
+        <select>
+          <option selected="selected">0 enfant</option>
+          <option>1 enfant</option>
+          <option>2 enfants</option>
+          <option>3 enfants</option>
+          <option>4 enfants</option>
+          <option>5 enfants</option>
+        </select>
+        <label for="type">Catégorie</label>
+        <select name="type" id="type">
+          <option selected="selected">Classe économique</option>
+          <option>Classe Affaires</option>
+        </select>
+      </div>
+      <div class="button-submit">
+        <input type="submit" value="lancer la recherche" name="recherche" id="recherche" />
+      </div>
+    </form>
+  </div>
+  </header>
+  <section id="destination">
+    <h3>Découvrez le monde avec nos destinations</h3>
+    <div class="destination-group">
+      <div class="destination-item paris">
+        <div class="overlay">
+          <span class="nom">Paris</span>
+          <span class="prix"> Dès 55€</span>
+        </div>
+      </div>
+      <div class="destination-item barcelone">
+        <div class="overlay">
+          <span class="nom">Barcelone</span>
+          <span class="prix">Dès 80€</span>
+        </div>
+      </div>
+      <div class="destination-item dubai">
+        <div class="overlay">
+          <span class="nom">Dubai</span>
+          <span class="prix">Dès 300€</span>
+        </div>
+      </div>
+      <div class="destination-item reunion">
+        <div class="overlay">
+          <span class="nom">Réunion</span>
+          <span class="prix">Dès 800€</span>
+        </div>
+      </div>
+      <div class="destination-item londres">
+        <div class="overlay">
+          <span class="nom">Londres</span>
+          <span class="prix">Dès 200€</span>
+        </div>
+      </div>
+      <div class="destination-item tunis">
+        <div class="overlay">
+          <span class="nom">Tunis</span>
+          <span class="prix">Dès 90€</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy;2024 -Derimer air line - tous droits réservés</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+   color:white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #160f0f;
+}
+
+.print-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#print-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #373f47;
+    color: white;
+    border-radius: 5px;
+}
+
+#print-button:hover {
+    background-color: #0056b3;
+}
+
+#print-time {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.guichets-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.guichet {
+    flex: 1;
+    background-color: #6e5a5a;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.guichet h3 {
+    margin-top: 0;
+}
+
+.guichet p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.recuperer-button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.recuperer-button:hover {
+    background-color: #218838;
+}

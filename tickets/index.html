@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de File d'Attente</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/gif" href="/image/favicon-16x16.png">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="print-section">
+            <h1>Bienvenue à la cpam de l'Ardèche</h1>
+            <button id="print-button">PRINT</button>
+            <p id="print-time">Prochain ticket imprimé dans 8 secondes</p>
+        </div>
+        <div class="guichet" id="guichet-1">
+            <h3>Guichet 1</h3>
+            <p id="guichet-1-ticket">Aucun ticket</p>
+            <p id="guichet-1-time">Temps restant : -- sec</p>
+            <button class="recuperer-button" onclick="recupererTicket(0)">Récupérer le ticket</button>
+        </div>
+        <div class="guichet" id="guichet-2">
+            <h3>Guichet 2</h3>
+            <p id="guichet-2-ticket">Aucun ticket</p>
+            <p id="guichet-2-time">Temps restant : -- sec</p>
+            <button class="recuperer-button" onclick="recupererTicket(1)">Récupérer le ticket</button>
+        </div>
+        <div class="guichet" id="guichet-3">
+            <h3>Guichet 3</h3>
+            <p id="guichet-3-ticket">Aucun ticket</p>
+            <p id="guichet-3-time">Temps restant : -- sec</p>
+            <button class="recuperer-button" onclick="recupererTicket(2)">Récupérer le ticket</button>
+        </div>
+        
+    </div>
+
+   
+</body>
+</html>
