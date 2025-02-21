@@ -22,4 +22,5 @@ document.addEventListener("DOMContentLoaded", function () {
   addClickListener("css", "https://developer.mozilla.org/fr/docs/Web/CSS");
   addClickListener("js", "https://developer.mozilla.org/fr/docs/Web/JavaScript");
   addClickListener("react", "https://fr.react.dev/");
+  addClickListener("creation3", "https://stephanovalentinophoto.com/");
 });
