@@ -36,14 +36,32 @@ height: 300px;
   text-align: center;
   padding: 30px;
 }
-.competences{
- text-align: center;
+.competences {
+  text-align: center;
   display: flex;
-  color:white;
+  color: white;
   background-color: #333;
-  padding:80px;
-  gap:50px;
+  padding: 30px;
+  gap: 20px;
+  border-radius: 10px; /* Ajout de coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ajout d'une transition pour l'effet de survol */
 }
+
+.competences:hover {
+  transform: translateY(-10px); /* Légère élévation au survol */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ombre plus prononcée au survol */
+}
+
+.competences h2 {
+  font-size: 1em; /* Augmenter la taille de la police */
+  color: #fff; /* Couleur blanche pour le texte */
+  margin-bottom: 20px; /* Ajouter un espace en bas */
+  text-transform: uppercase; /* Mettre le texte en majuscules */
+  letter-spacing: 2px; /* Espacement entre les lettres */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajouter une ombre au texte */
+}
+
 .html{
   flex-direction: column;
   text-align: center;
@@ -69,16 +87,26 @@ height: 300px;
 }
 .rea{
   text-align: center;
-  padding: 20px;
   
+  
+}
+.creation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background-color: black;
 }
 .realisations{
   color: white;
   background-color: #333;
   display: grid;
  grid-template-columns: 1fr 1fr 1fr;
- grid-template-rows: 1fr 1fr ;;
+ 
 gap:5px;
+text-align: center;
 }
 footer{
   color:white;
@@ -116,7 +144,14 @@ footer{
  }
 }
 @media(max-width:516px){
- 
+ .title{
+  position: relative;
+  top: 50px;
+  padding: 20px;
+  color: rgb(247, 241, 241);
+  font-size: 24px; /* Augmenter la taille de la police */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Ajouter une ombre pour améliorer le contraste */
+ }
  .section{
  padding:0;
  margin-top:40px;
