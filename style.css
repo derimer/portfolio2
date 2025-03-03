@@ -63,7 +63,10 @@ height: 300px;
   flex-direction: column;
   text-align: center;
 }
-
+.node{
+  flex-direction: column;
+  text-align: center;
+}
 .rea{
   text-align: center;
   padding: 20px;
