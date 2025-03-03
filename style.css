@@ -26,6 +26,10 @@ height: 300px;
   flex-direction: column;
 
 }
+.title p{
+  font-size: 24px; /* Augmenter la taille de la police */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Ajouter une ombre pour améliorer le contraste */
+}
 
 .section{
   display: flex;
